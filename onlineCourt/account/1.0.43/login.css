@@ -1,1 +1,178 @@
+.login-container {
+  position: relative;
+}
+.login-container .login-logo-container {
+  text-align: center;
+  padding: 10px 0;
+  height: 64px;
+}
+.login-container .login-logo-container img {
+  height: 100%;
+}
+.login-container .login-title-container {
+  color: #133190;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px 0;
+  line-height: 1.5;
+  margin-bottom: 24px;
+}
+.login-container .login-error-tips {
+  background: #FFF8E2;
+  line-height: 1.5em;
+  padding: 8px;
+}
+.login-container .login-form-container .auto-register-tips {
+  color: #9DA7B8;
+  font-size: 12px;
+  margin: 16px 0;
+}
+.login-container .login-form-container .login-button-container {
+  margin-top: 24px;
+}
+.login-container .login-entry-container {
+  overflow: hidden;
+  margin: 16px 0;
+}
+.login-container .login-entry-container .register-entry {
+  float: left;
+}
+.login-container .login-entry-container .register-entry span.none-account {
+  color: #9da7b8;
+}
+.login-container .login-entry-container .register-entry a.register {
+  cursor: pointer;
+  color: #2897FF;
+  text-decoration: none;
+}
+.login-container .login-entry-container .forgotpwd-entry {
+  float: right;
+}
+.login-container .login-entry-container .forgotpwd-entry a {
+  cursor: pointer;
+  color: #2897FF;
+  text-decoration: none;
+}
+.login-container .login-type-container {
+  padding-top: 24px;
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 12px;
+}
+.login-container .login-type-container .line {
+  overflow: hidden;
+  text-align: center;
+  margin-bottom: 12px;
+}
+.login-container .login-type-container .line::before {
+  content: "";
+  width: 35%;
+  display: inline-block;
+  height: 0;
+  margin-top: 8px;
+  border-top: 1px solid rgba(31, 31, 31, 0.09);
+  float: left;
+}
+.login-container .login-type-container .line::after {
+  content: "";
+  width: 35%;
+  display: inline-block;
+  height: 0;
+  margin-top: 8px;
+  border-top: 1px solid rgba(31, 31, 31, 0.09);
+  float: right;
+}
+.login-container .login-type-container .login-type-list {
+  text-align: center;
+  cursor: pointer;
+}
+.login-container .login-type-container .login-type-list .login-type-item {
+  display: inline-block;
+  text-align: center;
+  margin: 0 12px;
+}
+.login-container .login-type-container .login-type-list .login-type-item .icon {
+  display: inline-block;
+}
+.login-container .login-type-container .login-type-list .login-type-item .icon-checked {
+  display: none;
+}
+.login-container .login-type-container .login-type-list .login-type-item p {
+  line-height: 16px;
+  margin-top: 8px;
+}
+.login-container .login-type-container .login-type-list .login-type-item.checked {
+  color: rgba(0, 0, 0, 0.85);
+}
+.login-container .login-type-container .login-type-list .login-type-item.checked .icon {
+  display: none;
+}
+.login-container .login-type-container .login-type-list .login-type-item.checked .icon-checked {
+  display: inline-block;
+}
+.login-container .login-type-container .login-type-list .login-type-item.checked p {
+  margin-top: 1px;
+}
+.login-container .qrcode-container .qrcode-title {
+  text-align: center;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.85);
+}
+.login-container .qrcode-container #qrcode-img {
+  min-height: 260px;
+  text-align: center;
+}
+.login-container .qrcode-container #qrcode-img.success {
+  padding-top: 40px;
+  box-sizing: border-box;
+}
+.login-container .qrcode-container #qrcode-img.success:before {
+  content: '';
+  display: block;
+  width: 72px;
+  height: 72px;
+  margin: 24px auto;
+  background-size: cover;
+  background-image: url(assets/image/TB1qGoChdTfau8jSZFwXXX1mVXa-128-128.png);
+  background: none\9;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='~Image/TB1qGoChdTfau8jSZFwXXX1mVXa-128-128.png', sizingMethod='scale');
+}
+.login-container .qrcode-container #qrcode-img.success:after {
+  content: "ç™»å½•æˆåŠŸ";
+  display: block;
+  font-size: 18px;
+}
+.smsLogin .forgotpwd-entry,
+.txwfy .forgotpwd-entry,
+.alipay .forgotpwd-entry,
+.dingtalk .forgotpwd-entry {
+  display: none;
+}
+.txwfy .login-title-container,
+.alipay .login-title-container,
+.dingtalk .login-title-container {
+  display: none;
+}
+.txwfy .login-entry-container,
+.alipay .login-entry-container,
+.dingtalk .login-entry-container {
+  display: none;
+}
+.wfy_bind .modal {
+  top: 20%;
+}
+.wfy_bind .bind-modal {
+  text-align: center;
+  font-size: 16px;
+}
+.wfy_bind .bind-modal h1 {
+  font-size: 22px;
+}
+.wfy_bind .bind-modal [data-action="tobind"] {
+  margin: 24px 0 12px 0;
+  font-size: 16px;
+}
+.wfy_bind .bind-modal [data-action="login"] {
+  color: #1890FF;
+  cursor: pointer;
+}
 
